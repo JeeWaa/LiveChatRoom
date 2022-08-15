@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="478.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ChatRoom01FormController">
+   <children>
+      <JFXTextArea fx:id="txtChat" layoutX="14.0" layoutY="58.0" prefHeight="349.0" prefWidth="663.0" style="-fx-background-color: #eae8ff;" />
+      <JFXTextField fx:id="txtMessage" layoutX="14.0" layoutY="427.0" prefHeight="37.0" prefWidth="527.0" promptText="Message" />
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="28.0" prefWidth="103.0" text="Char Room">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="555.0" layoutY="427.0" onMouseClicked="#send" prefHeight="37.0" prefWidth="122.0" style="-fx-background-color: #d137fb;" text="Send" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXButton>
+      <Label alignment="CENTER_RIGHT" layoutX="574.0" layoutY="14.0" prefHeight="28.0" prefWidth="103.0" text="Kamal">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
