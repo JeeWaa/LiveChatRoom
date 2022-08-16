@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="478.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ChatRoom01FormController">
+<AnchorPane prefHeight="478.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ChatRoom02FormController">
    <children>
       <JFXTextArea fx:id="txtChat" layoutX="14.0" layoutY="58.0" prefHeight="349.0" prefWidth="663.0" style="-fx-background-color: #eae8ff;" />
       <JFXTextField fx:id="txtMessage" layoutX="14.0" layoutY="427.0" prefHeight="37.0" prefWidth="527.0" promptText="Message" />
